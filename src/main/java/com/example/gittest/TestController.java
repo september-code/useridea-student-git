@@ -11,6 +11,8 @@ public class TestController {
     public String test(){
         System.out.println("test2 update1");
         System.out.println("test2 update2");
+        System.out.println("test1 update1");
+        System.out.println("test1 update2");
         return "test";
     }
 }
