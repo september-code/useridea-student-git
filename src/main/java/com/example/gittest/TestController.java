@@ -9,6 +9,8 @@ public class TestController {
     @GetMapping("/test")
     @ResponseBody
     public String test(){
+        System.out.println("test2 update1");
+        System.out.println("test2 update2");
         return "test";
     }
 }
